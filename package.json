@@ -1,0 +1,57 @@
+{
+  "name": "vscode-proxy-toggle",
+  "displayName": "Proxy Toggle",
+  "description": "Toggle VS Code http.proxy on/off from the status bar.",
+  "version": "0.0.1",
+  "publisher": "morpheus",
+  "icon": "media/icon.svg",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:proxyToggle.toggle"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "proxyToggle.toggle",
+        "title": "Toggle Proxy"
+      }
+    ],
+    "configuration": {
+      "title": "Proxy Toggle",
+      "properties": {
+        "proxyToggle.scheme": {
+          "type": "string",
+          "default": "socks5",
+          "enum": [
+            "socks5",
+            "http",
+            "https"
+          ],
+          "description": "Proxy scheme used when toggling on."
+        },
+        "proxyToggle.host": {
+          "type": "string",
+          "default": "127.0.0.1",
+          "description": "Proxy host or IP."
+        },
+        "proxyToggle.port": {
+          "type": "number",
+          "default": 10808,
+          "description": "Proxy port."
+        },
+        "proxyToggle.strictSSL": {
+          "type": "boolean",
+          "default": false,
+          "description": "Value for http.proxyStrictSSL when enabling the proxy."
+        }
+      }
+    }
+  }
+}
