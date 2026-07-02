@@ -146,3 +146,20 @@ Web developer & cheerful hacker · PHP · Laravel · Go
 ⭐ **If Proxy Toggle saves you a few trips into settings.json, consider giving it a star!** ⭐
 
 </div>
+
+
+---
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#morpheusadam/vscode-proxy&Date">
+  <img src="https://api.star-history.com/svg?repos=morpheusadam/vscode-proxy&type=Date" alt="vscode-proxy — Star History Chart" width="70%" />
+</a>
+
+<div align="center">
+
+### If this project helps you, please give it a ⭐
+
+A star helps other developers discover **vscode-proxy** and supports continued development.
+
+</div>
