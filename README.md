@@ -5,11 +5,11 @@
 ### One-click VS Code proxy switch — turn `http.proxy` on or off straight from the status bar, with your host, port and scheme saved in Settings.
 
 <p>
-  <img src="https://img.shields.io/github/license/morpheusadam/vscode-proxy?style=for-the-badge&color=4c1" alt="License" />
-  <img src="https://img.shields.io/github/stars/morpheusadam/vscode-proxy?style=for-the-badge&color=ffca28" alt="Stars" />
-  <img src="https://img.shields.io/github/forks/morpheusadam/vscode-proxy?style=for-the-badge&color=42a5f5" alt="Forks" />
-  <img src="https://img.shields.io/github/last-commit/morpheusadam/vscode-proxy?style=for-the-badge&color=8e44ad" alt="Last commit" />
-  <img src="https://img.shields.io/github/repo-size/morpheusadam/vscode-proxy?style=for-the-badge&color=e67e22" alt="Repo size" />
+  <img src="https://img.shields.io/github/license/morpheusadam/ProxyToggle?style=for-the-badge&color=4c1" alt="License" />
+  <img src="https://img.shields.io/github/stars/morpheusadam/ProxyToggle?style=for-the-badge&color=ffca28" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/morpheusadam/ProxyToggle?style=for-the-badge&color=42a5f5" alt="Forks" />
+  <img src="https://img.shields.io/github/last-commit/morpheusadam/ProxyToggle?style=for-the-badge&color=8e44ad" alt="Last commit" />
+  <img src="https://img.shields.io/github/repo-size/morpheusadam/ProxyToggle?style=for-the-badge&color=e67e22" alt="Repo size" />
 </p>
 
 <p>
@@ -66,7 +66,7 @@ When you enable it, the extension writes `http.proxy` (built as `scheme://host:p
 ### Install from source
 
 ```bash
-git clone https://github.com/morpheusadam/vscode-proxy.git
+git clone https://github.com/morpheusadam/ProxyToggle.git
 cd vscode-proxy
 npm install -g @vscode/vsce
 vsce package        # creates the .vsix
@@ -123,7 +123,7 @@ vscode-proxy/
 
 ## 🤝 Contributing
 
-Contributions are welcome! Open an [issue](https://github.com/morpheusadam/vscode-proxy/issues) or submit a pull request with improvements such as workspace-level targeting, no-proxy lists, or a quick-pick for multiple saved proxies.
+Contributions are welcome! Open an [issue](https://github.com/morpheusadam/ProxyToggle/issues) or submit a pull request with improvements such as workspace-level targeting, no-proxy lists, or a quick-pick for multiple saved proxies.
 
 ## 📜 License
 
@@ -152,8 +152,8 @@ Web developer & cheerful hacker · PHP · Laravel · Go
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#morpheusadam/vscode-proxy&Date">
-  <img src="https://api.star-history.com/svg?repos=morpheusadam/vscode-proxy&type=Date" alt="vscode-proxy — Star History Chart" width="70%" />
+<a href="https://star-history.com/#morpheusadam/ProxyToggle&Date">
+  <img src="https://api.star-history.com/svg?repos=morpheusadam/ProxyToggle&type=Date" alt="vscode-proxy — Star History Chart" width="70%" />
 </a>
 
 <div align="center">
