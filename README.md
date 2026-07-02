@@ -1,7 +1,5 @@
 <div align="center">
-
-# 🔌 Proxy Toggle for VS Code
-
+# 🔌 Proxy Toggle
 ### One-click VS Code proxy switch — turn `http.proxy` on or off straight from the status bar, with your host, port and scheme saved in Settings.
 
 <p>
